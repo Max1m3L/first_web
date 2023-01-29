@@ -1,0 +1,38 @@
+body {
+    background-color: #eed8cd;
+    font-weight: bold;
+}
+
+.fotos {
+    display: block;
+    text-align: center;
+}
+
+.filter-img {
+    overflow: hidden;
+    padding: 15px;
+    width: 28em;
+    height: 40em;
+}
+
+@keyframes color-change {
+    0% {
+        color: #00BFFF;
+    }
+
+    25% {
+        color: blue;
+    }
+
+    75% {
+        color:#008B8B;  
+    }
+
+    100% {
+        color:#00BFFF;
+    }
+}
+
+.magic {
+    animation: color-change 5s infinite;
+}
