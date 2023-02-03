@@ -1,6 +1,7 @@
 body {
-    background-color: #eed8cd;
+    background-color: #E8DAEF;
     font-weight: bold;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 .fotos {
@@ -13,6 +14,30 @@ body {
     padding: 15px;
     width: 28em;
     height: 40em;
+}
+
+.text {
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.card {
+    border-radius: 1em;
+    text-align: center;
+  }
+
+.card:hover {
+    background-color: beige;
+}
+
+.lot-img {
+    display: flex;
+}
+
+.bold {
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 25px;
 }
 
 @keyframes color-change {
@@ -35,4 +60,5 @@ body {
 
 .magic {
     animation: color-change 5s infinite;
+    font-size: 20px;
 }
