@@ -1,0 +1,15 @@
+body {
+    background-color: #F8F4FF;
+    font-weight: bold;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.title {
+    margin-left: 40%;
+    color:  #9227F1;
+    font-weight: bold;
+}
+
+.game {
+    margin-left: 3%;
+}
